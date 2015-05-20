@@ -20,13 +20,27 @@
      - snapshots are available for use at any time
 **** differencing (diff-ing)
      - see the exact difference between two (not necessarily sequencial) versions (commits)
+*** resources
+**** https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
+**** http://www.git-tower.com/learn/git/ebook/mac/basics/why-use-version-control
 
 ** learn core git commands
 ** hands-on: establish a project wiki
 * material covered (preview)
 ** high-level concepts
 ** basic workflow
-* high-level concepts
+* concepts
+** three-tree architecture
+** remote
+** local repository
+** staging index
+** branch
+** clone
+** tag
+** diff
+* hands-on
+** install
+*** 
 ** config
 *** name, email, color
 *** key pairs
@@ -36,14 +50,7 @@
 *** git commit
 *** git push
 *** git pull
-* terminology
-** remote
-** local repository
-** staging index
-** branch
-** clone
-** tag
-** diff
+
 
 * resources
 ** [[http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration][git-scm]]

@@ -1,4 +1,4 @@
-
+Notes: https://github.com/lsulibraries/git-workshop/blob/master/git-ws.org
 * objectives
 ** intro to version control
 *** why version control?

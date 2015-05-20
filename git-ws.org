@@ -33,7 +33,6 @@
 ** learn core git commands
 ** hands-on:
 *** clone an existing repository
-*** create your first repository
 *** contribute to a project wiki
 
 * concepts
@@ -86,22 +85,6 @@
     4. git push origin master
 *** browser
     1. github.com/lsulibraries
-** create a new repository on your local filesystem and track it in github
-*** git bash
-    1. mkdir myproject
-    2. cd myproject
-    3. touch newfile
-    4. git add .
-    5. git commit -m "first commit"
-*** browser
-    1. github.com/<your username>
-    2. click "New repository"
-    3. fill in "Repository name" [tmp]
-    4. click "Create repository"
-*** git bash
-    1. git remote add origin git@github.com:lsulibraries/tmp.git
-    2. git push -u origin master
-    3. exit
 ** workflow
 *** git pull ['git clone' the first time]
 *** git add

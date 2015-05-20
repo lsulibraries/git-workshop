@@ -20,10 +20,18 @@
      - snapshots are available for use at any time
 **** differencing (diff-ing)
      - see the exact difference between two (not necessarily sequencial) versions (commits)
-*** resources
-**** https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
-**** http://www.git-tower.com/learn/git/ebook/mac/basics/why-use-version-control
+*** distributed
+**** safety
+     - everyone has a copy (a la LOCKSS network)
+       - no single point of failure
+       - backups for free
+**** transparency / oversight
+     - each person has the entire revision history of the repository
 
+*** resources
+**** [[https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control][Getting Started - git-scm.com]]
+**** [[http://www.git-tower.com/learn/git/ebook/mac/basics/why-use-version-control][Learn Version Control with Git]]
+**** [[http://infospace.ischool.syr.edu/2012/10/10/the-librarians-arsenal-git-github/][The Librarian’s Arsenal: Git & GitHub]]
 ** learn core git commands
 ** hands-on: establish a project wiki
 * material covered (preview)
@@ -31,8 +39,9 @@
 ** basic workflow
 * concepts
 ** three-tree architecture
+** repository
 ** remote
-** local repository
+** local
 ** staging index
 ** branch
 ** clone

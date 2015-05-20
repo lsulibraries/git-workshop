@@ -56,36 +56,7 @@ Notes: https://github.com/lsulibraries/git-workshop/blob/master/git-ws.org
 ** rm :: delete a file (use these with care!!)
 *** rm -r :: delete a directory and all of its contents
 ** pwd :: parent working directory (where am I?)
-* hands-on
-** install git on Windows
-   1. Login
-   2. Browse to https://git-scm.com/ and click [[https://git-scm.com/download/win][Download]] (Windows)
-   3. Run the installer, accepting all of the defaults
-   4. launch git: Start menu -> Search -> git bash
-
-** clone an existing repository from github
-*** browser
-    1. find a project to clone (suggest https://github.com/lsulibraries/git-workshop)
-    2. copy the "HTTPS clone URL" (bottom-right of the screen)
-*** git bash
-    1. git clone https://github.com/lsulibraries/git-workshop.git
-    2. cd git-workshop
-    3. ls
-    4. git config user.name "My Name"
-    5. git config user.email me@example.com
-*** windows explorer
-    1. navigate to the repository you just cloned (Desktop -> my name -> git-workshop)
-    2. create a plain text file in Notepad
-    3. add some text
-    4. save the file to the cloned repository
-*** git bash
-    1. git status
-    2. git add .
-    3. git commit -m "Descriptive message here..."
-    4. git push origin master
-*** browser
-    1. github.com/lsulibraries
-** workflow
+* workflow
 *** git pull ['git clone' the first time]
 *** git add
 *** git commit

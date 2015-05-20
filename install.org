@@ -1,0 +1,5 @@
+** install git on Windows
+   1. Login
+   2. Browse to https://git-scm.com/ and click [[https://git-scm.com/download/win][Download]] (Windows)
+   3. Run the installer, accepting all of the defaults
+   4. launch git: Start menu -> Search -> git bash

@@ -1,0 +1,61 @@
+
+* objectives
+** intro to version control
+*** why version control?
+**** enables efficient collaboration
+     - work simultaneously on the same files
+       - as opposed to files on a shared drive, for example
+     - changes, even conflictig changes, are later merged in a controled way
+**** audit trail
+     - each commit is a discreet changeset; it's metadata describes:
+       - who made the change
+       - when s/he made the change
+       - what the change is about (depends on the author following good practice!)
+     - each commit is labeled with a unique id
+       - a checksum (SHA1 hash) of the changeset itself
+**** project snapshots
+     - each commit id represents a snapshot of the project at the moment the commit was made
+     - important commits can be celebrated as tags
+       - alias that points to a particular snapshot of the project
+     - snapshots are available for use at any time
+**** differencing (diff-ing)
+     - see the exact difference between two (not necessarily sequencial) versions (commits)
+
+** learn core git commands
+** hands-on: establish a project wiki
+* material covered (preview)
+** high-level concepts
+** basic workflow
+* high-level concepts
+** config
+*** name, email, color
+*** key pairs
+** workflow
+*** git init
+*** git add
+*** git commit
+*** git push
+*** git pull
+* terminology
+** remote
+** local repository
+** staging index
+** branch
+** clone
+** tag
+** diff
+
+* resources
+** [[http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration][git-scm]]
+** lynda
+*** essential training (some highlights)
+    login via myLSU: https://grok.lsu.edu/categories.aspx?parentcategoryid=1604
+    1. What is git ?
+       - [[http://www.lynda.com/Git-tutorials/Understanding-version-control/100222/111248-4.html][Understanding version control]] 4m
+       - [[http://www.lynda.com/Git-tutorials/About-distributed-version-control/100222/111250-4.html][About distributed version control]] 5m
+    2. Installing git
+       - [[http://www.lynda.com/Git-tutorials/Installing-Git-Windows/100222/111254-4.html][...on Windows]] 5.5m
+    3. [[http://www.lynda.com/Git-tutorials/Writing-commit-messages/100222/111263-4.html#][Getting Started]] ~16m
+    4. Concepts
+       - [[http://www.lynda.com/Git-tutorials/Exploring-three-trees-architecture/100222/111266-4.html][Three-trees architecture]] 4m
+       - [[http://www.lynda.com/Git-tutorials/Git-workflow/100222/111267-4.html][Workflow]] 3m

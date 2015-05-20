@@ -29,9 +29,7 @@
      - each person has the entire revision history of the repository
 
 *** resources
-**** [[https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control][Getting Started - git-scm.com]]
-**** [[http://www.git-tower.com/learn/git/ebook/mac/basics/why-use-version-control][Learn Version Control with Git]]
-**** [[http://infospace.ischool.syr.edu/2012/10/10/the-librarians-arsenal-git-github/][The Librarian’s Arsenal: Git & GitHub]]
+
 ** learn core git commands
 ** hands-on:
 *** clone an existing repository
@@ -65,6 +63,29 @@
    2. Browse to https://git-scm.com/ and click [[https://git-scm.com/download/win][Download]] (Windows)
    3. Run the installer, accepting all of the defaults
    4. launch git: Start menu -> Search -> git bash
+
+** clone an existing repository from github
+*** browser
+    1. find a project to clone (suggest https://github.com/lsulibraries/git-workshop)
+    2. copy the "HTTPS clone URL" (bottom-right of the screen)
+*** git bash
+    1. git clone https://github.com/lsulibraries/git-workshop.git
+    2. cd git-workshop
+    3. ls
+    4. git config user.name "My Name"
+    5. git config user.email me@example.com
+*** windows explorer
+    1. navigate to the repository you just cloned (Desktop -> my name -> git-workshop)
+    2. create a plain text file in Notepad
+    3. add some text
+    4. save the file to the cloned repository
+*** git bash
+    1. git status
+    2. git add .
+    3. git commit -m "Descriptive message here..."
+    4. git push origin master
+*** browser
+    1. github.com/lsulibraries
 ** create a new repository on your local filesystem and track it in github
 *** git bash
     1. mkdir myproject
@@ -81,31 +102,6 @@
     1. git remote add origin git@github.com:lsulibraries/tmp.git
     2. git push -u origin master
     3. exit
-
-** clone an existing repository from github
-*** browser
-    1. find a project to clone (suggest https://github.com/lsulibraries/git-workshop)
-    2. copy the "HTTPS clone URL" (bottom-right of the screen)
-*** git bash
-    1. git clone https://github.com/lsulibraries/git-workshop.git
-    2. cd git-workshop
-    3. ls
-*** windows explorer
-    1. navigate to the repository you just cloned (Desktop -> my name -> git-workshop)
-    2. create a plain text file in Notepad
-    3. add some text
-    4. save the file to the cloned repository
-*** git bash
-    1. git status
-    2. git add .
-    3. git commit -m "Descriptive message here..."
-    4. git push origin master
-*** browser
-    1. github.com/lsulibraries
-
-** config
-*** name, email, color
-*** key pairs
 ** workflow
 *** git pull ['git clone' the first time]
 *** git add
@@ -113,7 +109,9 @@
 *** git push
 *** git pull
 * resources
-** [[http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration][git-scm]]
+** [[https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control][Getting Started - git-scm.com]]
+** [[http://www.git-tower.com/learn/git/ebook/mac/basics/why-use-version-control][Learn Version Control with Git]]
+** [[http://infospace.ischool.syr.edu/2012/10/10/the-librarians-arsenal-git-github/][The Librarian’s Arsenal: Git & GitHub]]
 ** lynda
 *** essential training (some highlights)
     login via myLSU: https://grok.lsu.edu/categories.aspx?parentcategoryid=1604
